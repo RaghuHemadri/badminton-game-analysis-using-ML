@@ -49,8 +49,3 @@ Since all tournaments have different camera setups, we cannot simply overlay the
 To calculate metrics such as lunge distance and reachability, we need a transformation from 2D camera space to 3D space so that we can measure the distances accurately. To do this, we use the fact that we know the court's dimensions very accurately, and that the entire court is visible in the frame at all times. We then perform a perspective transform to move the viewer's location perpendicularly above the court. This allows us to map the court's dimensions to any euclidean distance on the court. And thus, we can find the lunge distances and reachability of any player.
 
 ![Sample Evaluation](/images/radar.png)
-
-This work was developed during CalHacks 6.0 (2019) at UC Berkeley by
-* Deepak Talwar
-* Seung Won Lee
-* Sachin Guruswamy
